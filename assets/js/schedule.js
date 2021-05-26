@@ -1,3 +1,7 @@
+require("bootstrap");
+const { createLoremIpsum, dateConverter } = require("./helpers");
+const createEl = require("./domMethods");
+
 $(document).ready(function(){
 
     const date = new Date();
